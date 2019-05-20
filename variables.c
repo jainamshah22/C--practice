@@ -1,5 +1,5 @@
 /*Author para_sf*/
-/* Long integer */
+/* Shows typical declarations, assignments and values stored in various types of variables */
 #include <stdio.h>
 
 main()
