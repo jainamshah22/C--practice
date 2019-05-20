@@ -1,5 +1,7 @@
 /*Author para_sf*/
 /* Long integer */
+/*The use of 16 bit machine, shows that values greater than 32767 are not properly stored on 16 bit machine.
+However, when they are qualified as long integer, the values are correctly stored */
 #include <stdio.h>
 
 main()
