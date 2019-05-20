@@ -1,0 +1,23 @@
+/*Author para_sf*/
+/* Average of numbers */
+#include<stdio.h>
+
+int main()
+{
+    int number, i;
+    float sum = 0, Average;
+
+    printf("Enter number of elements:  \n");
+    scanf("%d", &number);
+    printf("Enter %d elements\n", number);
+    for(i = 0; i < number; i++)
+    {
+        scanf("%f", &Average);
+        sum += Average;
+        
+    }
+    Average = sum/number;
+    printf("\n\n\nAverage of the entered numbers is =  %.1f",Average);
+   
+    return 0;
+}
