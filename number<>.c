@@ -1,5 +1,5 @@
 /*Author para_sf*/
-/* Long integer */
+/* greater smaller number */
 #include <stdio.h>
 
 int main()
